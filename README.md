@@ -1,9 +1,8 @@
 # Maritime Vessel Tracking System
 
 <p align="center">
-  <img src="https://www.aims.gov.au/sites/default/files/d82103bd-1fb2-4b7d-8444-efd42965c620.jpg" alt="Centered Image">
+  <img src="assets/image.jpg" alt="Centered Image">
 </p>
-
 
 ## Student Information
 - **Name:** Imad Eddine EL MOUSS
