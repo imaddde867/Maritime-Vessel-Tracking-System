@@ -1,7 +1,7 @@
 # Maritime Vessel Tracking System
 
 <p align="center">
-  <img src="assets/image.jpg" alt="Centered Image">
+  <img src="image.jpg" alt="Centered Image">
 </p>
 
 ## Student Information
