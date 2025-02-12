@@ -17,12 +17,12 @@ DEP_PROJ_53/
 │   │   ├── processed/                   # Processed AIS data
 │   │   └── raw/                         # Raw API responses
 │   │
-│   ├── api.py                          # Flask API implementation
-│   ├── data_collect.py                 # AISHub data collector
-│   ├── data_enrichment.ipynb           # ML processing notebook
-│   └── Visualising.py                  # Folium map generation
+│   ├── api.py                           # Flask API implementation
+│   ├── data_collect.py                  # AISHub data collector
+│   ├── data_enrichment.ipynb            # ML processing notebook
+│   └── Visualising.py                   # Folium map generation
 │
-└── README.md                           # Project documentation
+└── README.md                            # Project documentation
 ```
 
 ## Overview
