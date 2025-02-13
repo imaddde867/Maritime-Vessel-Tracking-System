@@ -4,25 +4,6 @@
 - **Name:** Imad Eddine EL MOUSS
 - **Project:** Real-time Maritime Vessel Tracking using AIS Data
 
-## Project Structure
-```
-DEP_PROJ_53/
-├── Documentation/
-│   ├── data_architecture_diagram.mmd    # Mermaid diagram source
-│   ├── data_architecture_diagram.png    # Architecture diagram image
-│   └── data_architecture_diagram.svg    # Vector version of diagram
-│
-├── src/
-│   ├── data/
-│   │   ├── processed/                   # Processed AIS data
-│   │   └── raw/                         # Raw API responses
-│   │
-│   ├── api.py                           # Flask API implementation
-│   ├── data_collect.py                  # AISHub data collector
-│   ├── data_enrichment.ipynb            # ML processing notebook
-│   └── Visualising.py                   # Folium map generation
-│
-└── README.md                            # Project documentation
 ```
 
 ## Overview
