@@ -1,5 +1,9 @@
 # Maritime Vessel Tracking System
 
+<p align="center">
+  <img src="image.jpg" alt="Centered Image" width="75%">
+</p>
+
 ## Student Information
 - **Name:** Imad Eddine EL MOUSS
 - **Project:** Real-time Maritime Vessel Tracking using AIS Data
