@@ -1,7 +1,7 @@
 # Maritime Vessel Tracking System
 
 <p align="center">
-  <img src="logo.png" alt="Centered Image" width="100%">
+  <img src="logo.PNG" alt="Centered Image" width="100%">
 </p>
 
 ## Overview
