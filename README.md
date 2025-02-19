@@ -4,12 +4,6 @@
   <img src="image.jpg" alt="Centered Image" width="75%">
 </p>
 
-## Student Information
-- **Name:** Imad Eddine EL MOUSS
-- **Project:** Real-time Maritime Vessel Tracking using AIS Data
-
-```
-
 ## Overview
 This project creates a real-time maritime vessel tracking system using AIS (Automatic Identification System) data from AISHub. The system collects, processes, and visualizes vessel movements through an interactive web interface.
 
