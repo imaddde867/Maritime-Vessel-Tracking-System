@@ -58,7 +58,7 @@ NAVICAST is an innovative, real-time vessel tracking and prediction system focus
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/navicast.git
+git clone [https://github.com/yourusername/navicast.git](https://github.com/imaddde867/Maritime-Vessel-Tracking-System.git)
 cd navicast
 ```
 
@@ -81,14 +81,14 @@ psql -U your_username -d postgres -f schema.sql
 
 ### 4. Run the Application
 ```bash
+# Start the mqtt
+python3 mqtt_client.py
+
 # Start the prediction service
-python prediction_service.py
+python3 prediction_service.py
 
 # Start the MQTT streaming service
 python ais_streaming.py
-
-# Launch the FastAPI server
-uvicorn api_server:app --host 0.0.0.0 --port 8000
 ```
 
 ### 5. Access the Application
