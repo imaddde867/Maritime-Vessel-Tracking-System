@@ -127,10 +127,6 @@ navicast/
 | XGBoost           | 1.4958      | 0.4444  | 2.5473  | 0.4505| 0.7417|
 | **XGBoost (Tuned)** | **1.433** | **0.3941** | **2.4719** | **0.4381** | **0.7621** |
 
-<p align="center">
-  <img src="static/predictions.png" alt="NAVICAST Prediction Results" width="500">
-  <br><em>Comparison of predicted vs. actual vessel positions</em>
-</p>
 
 ## Future Improvements
 - Integrate more advanced ML models (e.g., LSTM for time-series data).
