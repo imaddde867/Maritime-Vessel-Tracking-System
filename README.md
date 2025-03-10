@@ -101,7 +101,7 @@ Open [http://localhost:8000](http://localhost:8000) in your browser to view the 
 ```
 navicast/
 ├── static/              # Frontend files (HTML, CSS, JS)
-│   ├── predictions.png  # Prediction visualization
+│   ├── accuracy.png     # Prediction visualization
 │   ├── features.png     # Features used in ML model
 ├── api_server.py        # FastAPI backend
 ├── ais_streaming.py     # MQTT data streaming
@@ -128,7 +128,7 @@ navicast/
 | **XGBoost (Tuned)** | **1.433** | **0.3941** | **2.4719** | **0.4381** | **0.7621** |
 
 <p align="center">
-  <img src="static/predictions.png" alt="NAVICAST Prediction Results" width="500">
+  <img src="static/accuracy.png" alt="NAVICAST Prediction Results" width="500">
   <br><em>Comparison of predicted vs. actual vessel positions</em>
 </p>
 
