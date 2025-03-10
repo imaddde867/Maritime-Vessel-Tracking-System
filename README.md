@@ -55,31 +55,32 @@ NAVICAST is an innovative, real-time vessel tracking and prediction system focus
 
 ## Installation
 
+
 ### 1. Clone the Repository
-bash
+```bash
 git clone https://github.com/yourusername/navicast.git
 cd navicast
-
+```
 
 ### 2. Set Up Environment
-bash
+```bash
 # Install Python 3.9+ and create a virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
-
+```
 
 ### 3. Configure Database
 - Set up a PostgreSQL database with the appropriate credentials.
 - Create the database and tables:
-bash
+```bash
 psql -U your_username -d postgres -f schema.sql
-
+```
 
 ### 4. Run the Application
-bash
+```bash
 # Start the prediction service
 python prediction_service.py
 
@@ -88,10 +89,12 @@ python ais_streaming.py
 
 # Launch the FastAPI server
 uvicorn api_server:app --host 0.0.0.0 --port 8000
-
+```
 
 ### 5. Access the Application
-Open index.html in your browser to view the interface.
+Open [http://localhost:8000](http://localhost:8000) in your browser to view the interface.
+
+This should be well-organized and easy to follow for anyone setting up your project. Let me know if you need any other tweaks!
 
 ## Project Structure
 navicast/
