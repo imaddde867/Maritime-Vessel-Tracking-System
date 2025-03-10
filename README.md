@@ -5,6 +5,14 @@
 [![XGBoost](https://img.shields.io/badge/XGBoost-Machine%20Learning-yellow)](https://xgboost.readthedocs.io/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)](https://www.postgresql.org/)
 
+<p align="center">
+  <img src="static/NAVICAST-logo/logo-white.svg" alt="NAVICAST Logo" width="300">
+</p>
+
+<p align="center">
+  <img src="static/screenshot.png" alt="NAVICAST Screenshot" width="600">
+</p>
+
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
@@ -33,8 +41,8 @@ NAVICAST is an innovative, real-time vessel tracking and prediction system focus
   - Predicted paths with dashed lines
   - Auto-refresh every 10 seconds for up-to-date data
   - Toggleable prediction display and map centering on the Baltic Sea
-- **Data Pipeline**: Integrates MQTT streaming, PostgreSQL storage, and batch processing for efficient data handling
-- **ML Optimization**: Employs Optuna for hyperparameter tuning of the XGBoost model, ensuring optimal performance
+- **Data Pipeline**: Integrates MQTT streaming, PostgreSQL storage, and batch processing for efficient data handling.
+- **ML Optimization**: Employs Optuna for hyperparameter tuning of the XGBoost model, ensuring optimal performance.
 
 ## Tech Stack
 - **Frontend**: HTML, CSS, Leaflet.js
@@ -46,9 +54,10 @@ NAVICAST is an innovative, real-time vessel tracking and prediction system focus
 
 ## Installation
 
+
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/navicast.git
+git clone [https://github.com/yourusername/navicast.git](https://github.com/imaddde867/Maritime-Vessel-Tracking-System.git)
 cd navicast
 ```
 
@@ -63,7 +72,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Configure Database
-- Set up a PostgreSQL database with the appropriate credentials
+- Set up a PostgreSQL database with the appropriate credentials.
 - Create the database and tables:
 ```bash
 psql -U your_username -d postgres -f schema.sql
@@ -71,21 +80,22 @@ psql -U your_username -d postgres -f schema.sql
 
 ### 4. Run the Application
 ```bash
+# Start the mqtt
+python3 mqtt_client.py
+
 # Start the prediction service
-python prediction_service.py
+python3 prediction_service.py
 
 # Start the MQTT streaming service
 python ais_streaming.py
-
-# Launch the FastAPI server
-uvicorn api_server:app --host 0.0.0.0 --port 8000
 ```
 
 ### 5. Access the Application
-Open `index.html` in your browser to view the interface.
+Open [http://localhost:8000](http://localhost:8000) in your browser to view the interface.
+
+This should be well-organized and easy to follow for anyone setting up your project. Let me know if you need any other tweaks!
 
 ## Project Structure
-```
 navicast/
 ├── static/              # Frontend files (HTML, CSS, JS)
 ├── api_server.py        # FastAPI backend
@@ -95,12 +105,12 @@ navicast/
 ├── requirements.txt     # Python dependencies
 ├── README.md            # This file
 └── schema.sql           # Database schema
-```
+
 
 ## How It Works
 1. **Data Ingestion**: AIS data is streamed in real-time from Digitraffic via MQTT, processed in batches, and stored in PostgreSQL.
 2. **Prediction Generation**: A tuned XGBoost model predicts vessel positions based on features like speed, course, and time differences, with results stored in the predictions table.
-3. **Visualization**: The frontend fetches data via the FastAPI endpoint `/vessels`, rendering it on an interactive map with current and predicted positions.
+3. **Visualization**: The frontend fetches data via the FastAPI endpoint /vessels, rendering it on an interactive map with current and predicted positions.
 
 ## Performance Metrics
 
@@ -113,16 +123,16 @@ navicast/
 | **XGBoost (Tuned)** | **1.433** | **0.3941** | **2.4719** | **0.4381** | **0.7621** |
 
 ## Future Improvements
-- Integrate more advanced ML models (e.g., LSTM for time-series data)
-- Enhance the UI with vessel details and historical tracks
-- Deploy on a cloud service for global accessibility
+- Integrate more advanced ML models (e.g., LSTM for time-series data).
+- Enhance the UI with vessel details and historical tracks.
+- Deploy on a cloud service for global accessibility.
 
 ## Acknowledgments
-- Digitraffic for providing real-time AIS data
-- The open-source community for tools like Leaflet.js, XGBoost, and PostgreSQL
+- Digitraffic for providing real-time AIS data.
+- The open-source community for tools like Leaflet.js, XGBoost, and PostgreSQL.
 
 ## Contact
 Created by [Your Name] - Passionate Data Engineering & AI Student
 
-- Email: [imadeddine200507@gmail.com]
+- Email: imadeddine200507@gmail.com
 - LinkedIn: [https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile]
