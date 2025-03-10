@@ -145,4 +145,4 @@ navicast/
 Created by Imad Eddine
 
 - Email: imadeddine200507@gmail.com
-- LinkedIn: [www.linkedin.com/in/imad-eddine-el-mouss-986741262](www.linkedin.com/in/imad-eddine-el-mouss-986741262)
+- LinkedIn: www.linkedin.com/in/imad-eddine-el-mouss-986741262
