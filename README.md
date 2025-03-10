@@ -46,7 +46,7 @@ NAVICAST is an innovative, real-time vessel tracking and prediction system focus
 
 <p align="center">
   <img src="static/features.png" alt="NAVICAST Features Visualization" width="500">
-  <br><em>Visual representation of key features used in the prediction model</em>
+  <br><em>Visual representation of the tracking key features presented in the UI</em>
 </p>
 
 ## Tech Stack
