@@ -9,7 +9,6 @@
   <img src="static/NAVICAST-logo/logo-white.svg" alt="NAVICAST Logo" width="300">
 </p>
 
-## Screenshot
 <p align="center">
   <img src="static/screenshot.png" alt="NAVICAST Screenshot" width="600">
 </p>
